@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(172, 255, 47, 0.549);
+    
+}
+h1 {
+    text-align: center;
+}
+.TD1 {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 0 40% 0 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    
+}

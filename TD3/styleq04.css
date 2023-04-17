@@ -1,0 +1,22 @@
+table, th,td {
+    border: 1px solid red;
+}
+table{
+    border-color: #4AA4BA;
+    border-width: 5px;
+    
+}
+#table2{
+    border-width: 5px;
+    border-collapse: separate;
+    border-spacing: 13px;
+    border-collapse: separate;
+    background-color: #CEECF8;
+}
+ tr {
+    
+    background-color: white;
+}
+#table2 tfoot>tr, #table2 thead tr{
+    background-color: #4AA4BA;
+}

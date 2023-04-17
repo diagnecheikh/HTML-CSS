@@ -1,0 +1,147 @@
+body {
+
+    width: 100%;
+    height: max-content;
+    
+}
+.head{
+    background: #f9004d;
+    height: 250px;
+
+}
+.tete{
+    background: #f9004d;
+    height: 250px;
+}
+
+.header {
+    position: absolute;
+    height: 250px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: 0;
+    background: #f9004d;
+    
+   
+}
+
+.navbar .logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+.navbar {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+header .navbar .logo {
+    position: absolute;
+    top: -50px;
+
+}
+.nav-links {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.page-Entete{
+    margin: 10px;
+    position: absolute;
+    top: 35vh;
+    right: 15vh;
+    width: 67%;
+} 
+.page-Entete .btn1 a {
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0;
+    text-align: center;
+    margin-top:20px;
+}
+
+.image-Entete img {
+    position: absolute;
+    top: 90vh;
+    left: 10%;
+    width: 200px;
+    justify-items: center;
+    display: none;
+}
+/*  ---page d'Affiche des films---/ */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 130vh;
+    margin-left: 5%;
+    margin-top: -200px;
+
+}
+ .titre-image h1{
+    margin: -100px;
+} 
+section article p{
+display: inline-block;
+}
+section article h3{
+    margin-left: -5vw;
+}
+section article img {
+
+    margin-left: -5vw;
+    width: 60vw;
+    height: 50vh;
+
+}
+.footer {
+display: none;
+}
+.logopart img {
+    height: 5vh;
+    margin-top: 50%;
+    margin-left: 10px;
+}
+.conteraire-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    font-size: 15px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-weight: 500;
+    display: inline-block;
+    flex-direction: column;
+}
+.socials i {
+    display: flex;
+    flex-direction: column; 
+}
+
+.btn3 a{
+   margin: -100px;
+   display: flex;
+   flex-direction: column;
+   float: left;
+}
+

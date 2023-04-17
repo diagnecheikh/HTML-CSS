@@ -1,0 +1,19 @@
+table,th, td {
+    border: 1px solid;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+h2, h3, h4 {
+    text-align: center;
+    background-color: #E0BF81;
+}
+dt {
+    color: rgb(231, 82, 82);
+}
+ul> li {    
+list-style-image: url("images/europeen_icone.jpg");
+background-position: left;
+background-repeat: no-repeat;
+}

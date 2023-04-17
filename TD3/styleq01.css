@@ -1,0 +1,27 @@
+
+          table, th, td {
+            border : 1px solid grey;
+        }
+section h1{
+    color :white;
+    background-color:darkslategray;
+}
+p{
+    color: black;
+    background-color: #e0bf81;
+}
+body{
+    background-color: darkslategray;
+}
+section article h1{
+    color: white;
+    background-color: #e18474;
+    border-color: white;
+}
+
+section article {
+background-color:#e18474;
+}
+section div { 
+    background-color: #AE7558;
+}

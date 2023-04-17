@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Mobile.css" media="only screen and (max-width: 900px)">
+ -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <title>accueil</title>
+    </head>
+    
+    <body class="body-page-acceuil">
+        <!------------------------------barre de navigation--------------------------------------------->
+        <header>
+            <nav class="navbar">
+                <a href="#" class="logo"> Les Arts 2000 </a>
+                <div class="nav-links">
+                    <ul>
+                        
+                        <li><a href="/cinema.html">Films</a></li>
+                        <li><a href="/chanson.html">Musique</a></li>
+                        <li><a href="/evenement.html">Evenement</a></li>
+                        <li><a href="/Oeuvres.html">Oeuvres d'arts</a></li>
+    
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="presentation-acceuil">
+            <p>  Ce site web offre un vaste panorama de l’art dans les années 2000 et comporte des ensembles Remarquables d’œuvres d'artistes qui ont marqué cette époque. Composée principalement de films, de chansons, d'oeuvres d'art mais aussi d'évènements artistiques des Années 2000.
+            </p>
+        </div>
+        <div class="A-page-cont">
+            
+            <div class="A-repri">
+                <a href="cinema.html"><img src="images2/icon-cinéma.jpg">
+                <h2> Les films</h2></a>
+            </div>
+            <div class="A-repri">
+                <a href="chanson.html"><img src="images2/icon-chonsons.jpg">
+                <h2>Les chansons </h2></a>
+                
+            </div>
+            <div class="A-repri">
+                <a href="evenement.html"><img src="images2/icon-evenement.jpg">
+                <h2>Les évènements</h2></a>
+
+            </div>
+            <div class="A-repri">
+                <a href="oeuvre.html"><img src="images2/icon-oeuvres.jpg">
+                <h2>Les oeuvres d'arts</h2></a>
+
+                </div>
+                
+                
+        
+        
+        
+            </div>
+    
+        
+    
+        
+    
+        <!----------------------footer-------------------------->
+        <footer class="footer">
+            <div >
+        
+                <div class="interieur-footer">
+        
+                    <div class="conteraire-footer">
+                        <div class="socials">
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-pinterest"></i>
+                        </div>
+                        <div class="copyright">
+                            <p>copyright&copy <span>Cinema</span>All rights Reserve-2022</p>
+                        </div>
+                
+                        <div class="btn3">
+                            <a href="">souscrire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                font-family: 'Montserrat';
+            }
+
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body{
+                font-family: cursive;
+                background-color: #191919;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 150vh;
+            }
+            
+            header{
+                height: 10vh;
+                width: 100vw;
+                background-color: #f9004d;
+                background-size: cover;
+            }
+
+            .navbar{
+                position: absolute;
+                color: white;
+                font-weight: bold;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                box-sizing: border-box;
+                align-items: center;
+            
+            }
+
+            .navbar .logo{
+                text-transform: uppercase;
+                font-size: 2em;
+                color: #191919;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+                text-shadow: 0cm;
+                letter-spacing: 2px;
+                word-spacing: 3px;
+            }
+            
+            .navbar .nav-links ul{
+                display: flex;
+                flex-wrap: nowrap;
+                list-style: none;
+            }
+            .navbar .nav-links ul a {
+                color: white;
+                padding-left: 50px;
+            }
+            .navbar .nav-links ul a:hover{
+                color: black;
+                font-size: 1.15vw;
+            }
+            .presentation-acceuil {
+                margin-top: 3%;
+                margin-left: 10%;
+                margin-right: 10%;
+                color:white;
+                padding: 20px;
+                text-align: justify;
+                font-weight:bolder;
+                font-size: 1.5vw;
+                line-height: 1.7;
+                text-transform:capitalize;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            
+            .A-page-cont{
+            display: flex;
+            flex-direction: row ;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 1vh; 
+            width: 60%;
+            margin-left: 20%;
+            text-align: center;
+                
+            }
+            .A-repri{
+                
+            margin-top: 5vh;
+            width: 40%;
+            transition-duration: 0.3s;
+                
+            }
+                
+            img{
+                
+            width: 20vw;
+            height: 25vh;
+            border-radius: 5%;
+            margin-top: 3vh;
+            transition-duration: 0.3s;
+            }
+            .A-page-cont  .A-repri a{
+                text-decoration: none;
+                color: red;
+            }
+            img:hover{
+                
+            width: 21.5vw;
+            height: 27.1vh;
+                
+            }
+            .footer {
+                
+                margin-top: 15%;
+                height: 20vh;
+                color: white;
+                background: #141414;
+                
+            }
+            
+            .logopart img {
+                width: 1vw;
+                height: 25vh;
+                padding-left: -10px;
+                margin-top: 0px;
+                margin-left: 1vw;
+
+            }
+            
+            
+            
+            .conteraire-footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3vw;
+            }
+            
+            .copyright {
+                font-size: 15px;
+                margin-top: 10vh;
+                font-weight: 500;
+                
+            }
+            
+            .socials i {
+                font-size: 27px;
+                margin-top: 30px;
+                padding: 0px 5px;
+                color: #f9004d;
+            
+            }
+            
+            .btn3 {
+                margin-right: 60px;
+                margin-top: 30px;
+            }
+            
+            .btn3 a {
+                text-decoration: none;
+                padding: 10px 25px;
+                color: black;
+                background-color: #f9004d;
+                border-radius: 30px;
+            }
+            
+            .btn3 a:hover{
+                background-color: #191919;
+                color: #f9004d;
+                transition: 0.4s;
+            }
+        </style >   
+    </body>
+
+</html>

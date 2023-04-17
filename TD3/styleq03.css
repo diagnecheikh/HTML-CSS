@@ -1,0 +1,44 @@
+table, th, td {
+    border : 1px solid grey;
+}
+section h1{
+color :black;
+text-align: center;
+
+}
+p{
+color: black;
+background-color: #e0bf81;
+}
+body{
+background-color: darkslategray;
+padding-top: 0px;
+}
+section>p:first-of-type{
+    font-style: italic;
+}
+section h1 {
+    background-color:#CEECF8;
+}
+section article h1{
+color: white;
+background-color: #e18474;
+border-color: white;
+}
+
+section article {
+background-color:#e18474;
+}
+section div { 
+background-color: #AE7558;
+}
+section div p {
+    background-color:rgb(255, 255, 255);
+    opacity: 0,8;
+}
+section>article:first-of-type div{
+background-image: url("./images/chopper.png");
+background-repeat: no-repeat;
+background-position: right;
+background-size: 3em;
+}

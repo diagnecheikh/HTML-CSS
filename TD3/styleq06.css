@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid grey;
+}
+header {
+    background-color: #E18474;
+    border-color: burlywood;
+}
+header>h1, section>h1 {
+    color: white;
+    text-align: center;
+}
+section>h1 {
+    background-color: darkslategray;
+    margin-bottom: 0;
+}
+#compagnie{
+    margin-top: 0px;
+}
+section>p {
+    background-color: rgba(255, 228, 196, 0.681);
+    margin: 0px;
+    padding: 10px;
+}
+body{
+    background-color: burlywood;
+}
+section {    
+    background-image: url("images/persan.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40px;
+    background-size: 400px;
+    background-attachment: fixed;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.668);
+}
